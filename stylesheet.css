@@ -62,8 +62,8 @@ li {
   background-color: darkred;
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 500px) {
   body {
-    min-width: 100vh;
+    max-width: 100vh;
   }
 }
