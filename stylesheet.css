@@ -66,4 +66,17 @@ li {
   body {
     max-width: 90%;
   }
+  form {
+    align-items: center;
+  }
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+  }
+    li{
+      flex.direction: row;
+    }
+  .remove-btn {
+    margin-left:auto;
+  }
 }
