@@ -1,6 +1,6 @@
 body {
   background-color: #f2f2f2;
-  max-width: 300px;
+  text-align: center;
 }
 
 body p {
@@ -8,10 +8,12 @@ body p {
 }
 
 .container {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px;
 }
 
 form {
@@ -30,10 +32,16 @@ input[type="text"] {
 input[type="submit"] {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #333;
-  color: #fff;
+  background-color: lightpink; 
   border: none;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0); 
+  transition: box-shadow 0.3s; 
+}
+
+input[type="submit"]:hover {
+  background-color: #ff69b4; 
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.8); 
 }
 
 ul {
