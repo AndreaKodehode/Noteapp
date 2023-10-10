@@ -13,7 +13,7 @@ body p {
 .container {
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #227fbd;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   max-width: 400px;
@@ -27,6 +27,7 @@ form {
 }
 
 input[type="text"] {
+  font-style: italic;
   flex-grow: 1;
   padding: 10px;
   font-size: 16px;
@@ -35,29 +36,35 @@ input[type="text"] {
 input[type="submit"] {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: lightpink;
+  background-color: #dbe4ee;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(255, 105, 180, 0);
   transition: box-shadow 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #ff69b4;
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
+  background-color: #dbe4eee9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 ul {
-  padding: 0;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
 }
 
 li {
   display: flex;
+  justify-content: space-between;
   gap: 10px;
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #ddd;
+  color: #ffffff;
+  background-color: #3498db89;
   border-radius: 4px;
+  box-shadow: 0 0 5px black;
 }
 
 .remove-btn {
