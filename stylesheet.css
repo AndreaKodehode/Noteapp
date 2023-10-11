@@ -45,8 +45,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #dbe4eee9;
+  background-color: #0077ffe9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 
 ul {
