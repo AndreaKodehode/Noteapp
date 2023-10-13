@@ -90,4 +90,12 @@ li {
   .container {
     max-width: 100%;
   }
+
+  form {
+    flex-direction: column;
+  }
+
+  #input-el {
+    width: 70%;
+  }
 }
